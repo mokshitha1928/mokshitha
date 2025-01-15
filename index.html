@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="sign_up.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Signup</h1>
+        <form action="sign_up.php" method="post" >
+            <label for="first">
+                Username:
+            </label>
+            <input type="text" id="tb1" name="tb1" 
+                placeholder="Enter your Username" required>
+            <label for="first">
+                Full name:
+            </label>
+            <input type="text" id="tb2" name="tb2" 
+                    placeholder="Enter yours Fullname" required>
+            <label for="num">
+                Mobile number:
+            </label>
+            <input type="number" placeholder="Mobile number" id="tb3" name="tb3">
+            <label for="second">
+                Email:
+            </label>
+            <input type="text" id="tb4" name="tb4" 
+                placeholder="Email" required>
+            <label for="password">
+                Password:
+            </label>
+            <input type="password" id="tb5" name="tb5" 
+                placeholder="Enter your Password" required>
+                <label for=" Conform password">
+                     Conform password:
+                </label>
+                <input type="password" id="tb6" name="tb6" 
+                    placeholder="Conform Password" required>
+
+            <div class="wrap">
+                <button type="submit">
+                    Submit
+                </button>
+            </div>
+        </form>
+        
+        <p>
+            <a href="#" style="text-decoration: none;">
+                sign in?
+            </a>
+        </p>
+    </div>
+</body>
+</html>
